@@ -10,7 +10,7 @@ namespace Primes.Tests.EvaluationEngine
         {
             var primeEvaluationEngine = new PrimeEvaluationEngine();
 
-            Assert.That(primeEvaluationEngine.IsPrime(2), Is.False);
+            Assert.That(primeEvaluationEngine.IsPrime(2), Is.True);
         }
     }
 }

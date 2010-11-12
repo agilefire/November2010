@@ -60,6 +60,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EvaluationEngine\When_Candidate_Is_Even.cs" />
     <Compile Include="EvaluationEngine\When_Candidate_Is_Zero.cs" />
     <Compile Include="EvaluationEngine\When_Evaluating_Number.cs" />
     <Compile Include="Generator\When_Calulating_Range_of_Primes.cs" />
