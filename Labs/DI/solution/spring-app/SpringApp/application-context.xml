@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net" default-autowire="autodetect">
+
+  <!-- TODO 3.1 Create ConsoleReport object definition, use name = 'ConsoleReport' -->
+  <object name="ConsoleReport" type="Primes.ConsoleReport, Primes"/>
+
+  <!-- TODO 3.2 Create PrimeGenerator object definition -->
+  <object type="Primes.PrimeGenerator, Primes"/>
+
+  <!-- TODO 3.3 Create OutputFormatter object definition -->
+  <object type="Primes.OutputFormatter, Primes"/>
+
+  <!-- TODO 3.4 Create PrimeEvaluationEngine object definition -->
+  <object type="Primes.PrimeEvaluationEngine, Primes"/>
+
+</objects>
