@@ -13,8 +13,9 @@ namespace SpringApp
 
         static void Main(string[] args)
         {
-            // TODO 3.0 Just a note, you should be calling CreateContainerUsingXML 
-            // TODO 4.0 CreateContainerUsingCodeConfig 
+            // TODO Spring - 1.0 - Set SpringApp as the startup project and run.  Look at the configuration in application-context.xml
+
+            // TODO Spring - 2.0 - Instead of calling CreateContainerUsingXML, call CreateContainerUsingCodeConfig.            
             IApplicationContext ctx = CreateContainerUsingXML();
 
 

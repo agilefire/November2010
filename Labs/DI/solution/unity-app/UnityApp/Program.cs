@@ -13,7 +13,7 @@ namespace UnityApp
             using (var container = new UnityContainer())
             {
                 //configure container
-                // TODO 2 - call ConfigureContainerUsingXML
+                //TODO Unity - 3.0 - Call ConfigureContainerUsingXML instead of ConfigureContainerUsingAPI and run project
                 ConfigureContainerUsingXML(container);
 
                 //ask container for objects and use them
@@ -27,8 +27,9 @@ namespace UnityApp
 
         private static void ConfigureContainerUsingAPI(UnityContainer container)
         {
-            // TODO 1 - use configuration api to configure the primes application
-            // TODO 6 Use LinqPrimeGenerator instead of PrimeGenerator
+            // TODO Unity - 1.0 - Use configuration api to configure the primes application.  See slide 25 in presentation 
+
+            // TODO Unity - 2.0 - Switch from PrimeGenerator to use LinqPrimeGenerator instead
             container
                 .RegisterType<IOutputFormatter, OutputFormatter>(new ContainerControlledLifetimeManager())
                 .RegisterType<IPrimeGenerator, LinqPrimeGenerator>(new ContainerControlledLifetimeManager())

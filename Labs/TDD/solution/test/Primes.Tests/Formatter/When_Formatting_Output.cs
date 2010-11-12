@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using NUnit.Framework;
+using NUnit.Framework.SyntaxHelpers;
 
 namespace Primes.Tests.Formatter
 {
@@ -21,7 +22,7 @@ namespace Primes.Tests.Formatter
 
             var formattedOutput = outputFormatter.Format(_generatedPrimes);
 
-			Assert.That(formattedOutput, Is.AssignableFrom<List<string>>());
+			Assert.That(formattedOutput, Is.Not.Empty);
         }
 
         [Test]
