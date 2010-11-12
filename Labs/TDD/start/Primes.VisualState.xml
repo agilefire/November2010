@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\Primes.nunit</TopNode>
+  <SelectedNode>[0-1004]Primes.EvaluationEngine.When_Number_Is_Evaluated.Can_Accept_Candidate_When_Zero</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\Primes.nunit" Expanded="true" />
+    <Node UniqueName="[0-1005]C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\test\Primes.Tests\bin\Debug\Primes.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]Primes" Expanded="true" />
+    <Node UniqueName="[0-1007]Primes.EvaluationEngine" Expanded="true" />
+    <Node UniqueName="[0-1001]Primes.EvaluationEngine.When_Creating_PrimeEngine" Expanded="true" />
+    <Node UniqueName="[0-1003]Primes.EvaluationEngine.When_Number_Is_Evaluated" Expanded="true" />
+  </Nodes>
+</VisualState>
