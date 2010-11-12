@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Refactoring SOLID">
+</Property><Property Name="Solution File" Value="C:\_talks\Agile Firestarter NYC Autumn 2010\November2010\Agile Firestarter NYC Autumn 2010 - Refactoring to a SOLID Foundation\00_Code-before-refactoring\Refactoring SOLID.sln">
+</Property><Property Name="Date" Value="Friday, November 12, 2010">
+</Property><Property Name="Time" Value="6:39 AM">
+</Property></Properties><Event ErrorLevel="0" Project="TheApplication" Source="TheApplication\TheApplication.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TheApplication" Source="TheApplication\TheApplication.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Refactoring SOLID.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Refactoring SOLID.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TheApplication" Source="TheApplication\TheApplication.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
