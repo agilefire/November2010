@@ -9,7 +9,7 @@ namespace SpringApp
         [Definition]
         public virtual ConsoleReport ConsoleReport()
         {
-            // TODO Spring - 3.0 - Create new ConsoleReport.  See slide 35 in presentation
+            // TODO Spring - 3.0 - Create new ConsoleReport.  See slide 37 in presentation
             //          a. Pass in as constructor arguments calls to ConsoleReport constructor
             //             the OutputFormatter() and PrimeGenerator() methods defined in this class.
             //          b. Set the MaxNumber property on ConsoleReport to 1000;

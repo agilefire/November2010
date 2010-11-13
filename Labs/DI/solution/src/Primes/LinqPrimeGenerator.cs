@@ -14,6 +14,11 @@ namespace Primes
 
             var sb = new StringBuilder();
 
+            if (maxNumber <= 0)
+            {
+                return sb.ToString();
+            }
+
             Func<int, IEnumerable<int>> primeNumbers = max =>
                                                        from i in Enumerable.Range(2, max - 1)
                                                        where Enumerable.Range(2, i - 2).All(j => i%j != 0)
