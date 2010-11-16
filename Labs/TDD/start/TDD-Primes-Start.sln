@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes", "src\Primes\Primes.csproj", "{865E1A8E-88F3-48D8-869F-B584C5A36740}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes.Tests", "test\Primes.Tests\Primes.Tests.csproj", "{32476935-0852-4A11-B938-4D202D8B4454}"
