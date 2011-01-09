@@ -1,19 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\Primes.nunit" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-03-27" time="11:59:24">
-  <environment nunit-version="2.5.3.9345" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.3\bin\net-2.0" machine-name="ALEXHUNG-LAPTOP" user="Alex Hung" user-domain="AlexHung-Laptop" />
+<test-results name="C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\TDD-Primes-Start.nunit" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-01-09" time="16:32:46">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Projects\Personal\agilefire\November2010\Labs\TDD\lib\NUnit-2.5.9.10348\bin\net-2.0" machine-name="ALEXHUNG-LAPTOP" user="AHung" user-domain="BALLYHOO" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite name="C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\Primes.nunit" executed="True" success="True" time="0.058" asserts="0">
+  <test-suite type="Project" name="C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\TDD-Primes-Start.nunit" executed="True" result="Failure" success="False" time="0.022" asserts="0">
     <results>
-      <test-suite name="C:\Users\Alex Hung\Documents\My Dropbox\AgileFirestarter\2010\labs\TDD\start\test\Primes.Tests\bin\Debug\Primes.Tests.dll" executed="True" success="True" time="0.049" asserts="0">
+      <test-suite type="Assembly" name="C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\test\Primes.Tests\bin\Debug\Primes.Tests.dll" executed="True" result="Failure" success="False" time="0.011" asserts="0">
         <results>
-          <test-suite name="Primes" executed="True" success="True" time="0.049" asserts="0">
+          <test-suite type="Namespace" name="Primes" executed="True" result="Failure" success="False" time="0.010" asserts="0">
             <results>
-              <test-suite name="EvaluationEngine" executed="True" success="True" time="0.047" asserts="0">
+              <test-suite type="Namespace" name="EvaluationEngine" executed="True" result="Failure" success="False" time="0.009" asserts="0">
                 <results>
-                  <test-suite name="When_Number_Is_Evaluated" executed="True" success="True" time="0.046" asserts="0">
+                  <test-suite type="TestFixture" name="When_Candidate_Is_Even" executed="True" result="Failure" success="False" time="0.001" asserts="0">
                     <results>
-                      <test-case name="Primes.EvaluationEngine.When_Number_Is_Evaluated.Can_Accept_Candidate_When_Zero" executed="True" success="True" time="0.032" asserts="1" />
+                      <test-case name="Primes.EvaluationEngine.When_Candidate_Is_Even.Should_Return_False" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TODO]]></message>
+                          <stack-trace><![CDATA[at Primes.EvaluationEngine.When_Candidate_Is_Even.Should_Return_False() in C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\test\Primes.Tests\EvaluationEngine\When_Candidate_Is_Even.cs:line 12
+]]></stack-trace>
+                        </failure>
+                      </test-case>
                     </results>
                   </test-suite>
                 </results>

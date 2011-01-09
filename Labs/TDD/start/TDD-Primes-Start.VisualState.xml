@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\TDD-Primes-Start.nunit</TopNode>
+  <SelectedNode>[0-1002]Primes.EvaluationEngine.When_Candidate_Is_Even.Should_Return_False</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\TDD-Primes-Start.nunit" Expanded="true" />
+    <Node UniqueName="[0-1009]C:\Projects\Personal\agilefire\November2010\Labs\TDD\start\test\Primes.Tests\bin\Debug\Primes.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1010]Primes" Expanded="true" />
+    <Node UniqueName="[0-1011]Primes.EvaluationEngine" Expanded="true" />
+    <Node UniqueName="[0-1001]Primes.EvaluationEngine.When_Candidate_Is_Even" Expanded="true" />
+    <Node UniqueName="[0-1007]Primes.EvaluationEngine.When_Candidate_Is_One" Expanded="true" />
+    <Node UniqueName="[0-1003]Primes.EvaluationEngine.When_Evaluating_Number" Expanded="true" />
+    <Node UniqueName="[0-1012]Primes.Generator" Expanded="true" />
+  </Nodes>
+</VisualState>
