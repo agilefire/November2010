@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using NUnit.Framework;
-using NUnit.Framework.SyntaxHelpers;
+﻿using NUnit.Framework;
 
 namespace Primes.Tests.Formatter
 {
