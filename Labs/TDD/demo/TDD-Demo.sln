@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageCalculator", "Non-TDD\MileageCalculator\MileageCalculator.csproj", "{AC568D18-A227-42A8-802C-3990A4C6EE3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Non-TDD", "Non-TDD", "{26EF1A9C-DC71-47AF-A52A-EF80BC7397F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilageCalculatorTest", "Non-TDD\MilageCalculatorTest\MilageCalculatorTest.csproj", "{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{1F94ACA4-CD29-4035-9F47-709198E789D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilageCalculatorTest-TDD", "TDD\MilageCalculatorTest-TDD\MilageCalculatorTest-TDD.csproj", "{104E5CFC-7110-4B28-9AB5-90242701824B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC568D18-A227-42A8-802C-3990A4C6EE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC568D18-A227-42A8-802C-3990A4C6EE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC568D18-A227-42A8-802C-3990A4C6EE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC568D18-A227-42A8-802C-3990A4C6EE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104E5CFC-7110-4B28-9AB5-90242701824B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104E5CFC-7110-4B28-9AB5-90242701824B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104E5CFC-7110-4B28-9AB5-90242701824B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104E5CFC-7110-4B28-9AB5-90242701824B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC568D18-A227-42A8-802C-3990A4C6EE3C} = {26EF1A9C-DC71-47AF-A52A-EF80BC7397F5}
+		{C1E65DF8-CB9E-4315-A5E7-EEEC689B1C8D} = {26EF1A9C-DC71-47AF-A52A-EF80BC7397F5}
+		{104E5CFC-7110-4B28-9AB5-90242701824B} = {1F94ACA4-CD29-4035-9F47-709198E789D6}
+	EndGlobalSection
+EndGlobal
