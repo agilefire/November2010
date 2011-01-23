@@ -15,9 +15,15 @@ namespace SpringApp
         {
             // TODO Spring - 1.0 - Set SpringApp as the startup project and run.  Look at the configuration in application-context.xml
 
-            // TODO Spring - 2.0 - Instead of calling CreateContainerUsingXML, call CreateContainerUsingCodeConfig.            
-            IApplicationContext ctx = CreateContainerUsingXML();
+            // TODO Spring - 3.0 - Run the SpringApp console application
 
+            // TODO Spring - 4.0 - Switch to use XML instead of Code to configure the container.
+            //                     Go into the file application-context.xml and follow the TODOs there.
+
+            // TODO Spring - 5.0 - Instead of calling CreateContainerUsingCodeConfig() call CreateContainerUsingXML() and run SpringApp console application
+
+            // TODO Spring - 6.1 - Run the SpringApp console application with appliation-context-autowire.xml      
+            IApplicationContext ctx = CreateContainerUsingXML();
 
             ConsoleReport report = ctx["ConsoleReport"] as ConsoleReport;
             report.Write();
@@ -31,37 +37,16 @@ namespace SpringApp
         
         private static IApplicationContext CreateContainerUsingXML()
         {
-            return new XmlApplicationContext("application-context-explicit.xml");
+            return new XmlApplicationContext("application-context-autowire.xml");
         }
 
         private static IApplicationContext CreateContainerUsingCodeConfig()
         {
-            return new XmlApplicationContext("application-context-code-config.xml");
-        }
-
-        #region Using Lower Level APIs - not required for lab exercise...but if you are curious...
-        private static IApplicationContext CreateContainerUsingBuilderAPI()
-        {
-            var ctx = new GenericApplicationContext();
-
-            var builder = GetBuilder<ConsoleReport>();
-            builder.AddPropertyValue("MaxNumber", 1000); 
-            ctx.RegisterObjectDefinition("ConsoleReport", builder.ObjectDefinition);
-
-            ctx.RegisterObjectDefinition("PrimeGenerator", GetBuilder<PrimeGenerator>().ObjectDefinition);
-            ctx.RegisterObjectDefinition("OutputFormatter", GetBuilder<OutputFormatter>().ObjectDefinition);
-            ctx.RegisterObjectDefinition("PrimeEvaluationEngine", GetBuilder<PrimeEvaluationEngine>().ObjectDefinition);
-
+            ScanningApplicationContext ctx = new ScanningApplicationContext();
+            ctx.Scan();
             ctx.Refresh();
-
             return ctx;
-
         }
 
-        private static ObjectDefinitionBuilder GetBuilder<T>()
-        {
-            return ObjectDefinitionBuilder.RootObjectDefinition(definitionFactory, typeof(T)).SetAutowireMode(AutoWiringMode.AutoDetect);
-        }
-        #endregion 
     }
 }

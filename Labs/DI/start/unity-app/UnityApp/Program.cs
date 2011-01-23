@@ -14,6 +14,7 @@ namespace UnityApp
             {
                 //configure container
                 //TODO Unity - 3.0 - Call ConfigureContainerUsingXML instead of ConfigureContainerUsingAPI and run project
+                //                   Look in App.config for the XML
                 ConfigureContainerUsingAPI(container);
 
                 //ask container for objects and use them
@@ -27,7 +28,9 @@ namespace UnityApp
 
         private static void ConfigureContainerUsingAPI(UnityContainer container)
         {
-            // TODO Unity - 1.0 - Use configuration api to configure the primes application.  See slide 24 in presentation 
+            // TODO Unity - 1.0 - Use configuration api to configure the primes application. 
+            // Should use 'ContainerControlledLifetimeManager' and set the MaxNumber property
+            // on ConsoleReport.  See unity-slides.pdf in 'DI' directory 
 
             // TODO Unity - 2.0 - Switch from PrimeGenerator to use LinqPrimeGenerator instead
         }
